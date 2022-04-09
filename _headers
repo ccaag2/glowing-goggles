@@ -6,6 +6,7 @@
 /static/*
   Access-Control-Allow-Origin: *
   X-Robots-Tag: nosnippet
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 
 https://myproject.pages.dev/*
   X-Robots-Tag: noindex
