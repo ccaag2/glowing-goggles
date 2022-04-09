@@ -2,11 +2,12 @@
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 
 /static/*
   Access-Control-Allow-Origin: *
   X-Robots-Tag: nosnippet
-  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 
-https://myproject.pages.dev/*
+https://glowing-goggles.pages.dev/*
   X-Robots-Tag: noindex
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
